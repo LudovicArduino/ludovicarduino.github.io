@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/etude.html">
+    <link rel="stylesheet" href="/js/etude.js">
+</head>
+<body>
+    <section class="cd-horizontal-timeline" ng-controller="tryCtrl">
+        <div class="timeline">
+          <div class="events-wrapper">
+            <div class="events">
+              <ol>
+                <li ng-repeat = "dt in time"><a href="" data-date="{{dt.dd}}" ng-class="{selected:$first}">{{dt.dc}}</a></li>
+              </ol>
+  
+              <span class="filling-line" aria-hidden="true"></span>
+            </div>
+            <!-- .events -->
+          </div>
+          <!-- .events-wrapper -->
+  
+          <ul class="cd-timeline-navigation">
+            <li><a href="" class="prev inactive">Prev</a></li>
+            <li><a href="" class="next">Next</a></li>
+          </ul>
+          <!-- .cd-timeline-navigation -->
+        </div>
+        <!-- .timeline -->
+  
+        <div class="events-content">
+          <ol>
+            <li ng-repeat="dc in events" data-date="{{dc.dt}}" ng-class="{selected:$first}">
+              <p>{{dc.p}}
+              </p>
+            </li>
+          </ol>
+        </div>
+        <!-- .events-content -->
+      </section>
+</body>
+</html>
