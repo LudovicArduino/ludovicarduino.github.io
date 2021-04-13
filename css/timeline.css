@@ -21,7 +21,9 @@
  //h1 span {
     font-weight: 600;
  }
- 
+ h3{
+    color: white;
+ }
  .timeline-container {
     width: 80%;
     padding: 50px 0;
@@ -89,7 +91,7 @@
     font-size: 14px;
     line-height: 1.5em;
     word-spacing: 1px;
-    color: #888;
+    color: rgba(255, 255, 255, 0.849);
  }
  @media screen and (max-width: 768px) {
     .timeline-container:before {
@@ -108,4 +110,3 @@
        direction: ltr;
     }
  }
- 
