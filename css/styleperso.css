@@ -5,10 +5,6 @@ html{
     background-attachment:fixed;
 }
 
-
-
-
-
 body{
     font-family: 'Montserrat Alternates', sans-serif;
 }
@@ -29,7 +25,7 @@ header{
     align-items: center;
 }
 
-#nav{
+.navmenu{
     position: fixed;
     right: 0px;
     top: 50%;
@@ -40,9 +36,10 @@ header{
     text-align: right;
     padding-right: 10px; 
     padding-top: 10px; 
+    list-style-type: none;
 }
 
-h1{
+.moi{
     color: white;
     font-weight: bolder;
     text-shadow: 0.1em 0.1em 0.2em green;   
@@ -55,6 +52,7 @@ h2{
     color: rgb(221, 206, 206);
     /*filter: drop-shadow(0.1em 0.1em 0.2em green);*/
 }
+
 ul{
     list-style-type: none;
     }

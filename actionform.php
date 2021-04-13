@@ -1,5 +1,7 @@
 <?php 
 //Pour définir chaque input du formulaire, ajouter le signe de dollar devant
+var_dump($_POST);
+echo $_GET [ 'nom' ] ;
 
 $msg = "Nom:\t$nom\n";
 $msg = "Prenom:\t$prenom\n";

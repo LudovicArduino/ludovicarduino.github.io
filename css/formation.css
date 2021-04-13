@@ -63,7 +63,7 @@ li{
   }
 }
 .time{
-  color: #2a2839;
+  color: #0ccc5c;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   @include mobile-and-up{
@@ -76,7 +76,7 @@ li{
 
 }
 p{
-  color: #4f4f4f;
+  color: #51b2ca;
       font-family: sans-serif;
   line-height: 1.5;
   margin-top:0.4rem;

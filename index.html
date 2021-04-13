@@ -5,13 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ludovic Arduino</title>
-    <link type="text/css" rel="stylesheet" href="/css/materialize.min.css" media="screen,projection"/>
-    <link rel="stylesheet" href="/css/materialize.css"media="screen,projection"/>
-    <link rel="stylesheet" href="/css/materialize.min.css"media="screen,projection"/>
-    <link rel="stylesheet" href="/css/styleperso.css">
+
+    <link rel="stylesheet" href="css/styleperso.css">
     <link rel="stylesheet" type="text/css" href="css/timeline.css">
-    <link rel="stylesheet" href="/formation.html">
-    <script src="js/materialize.js"></script>
+    <link rel="stylesheet" href="css/formation.css">
+    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet"> 
 
@@ -24,9 +22,9 @@
 <body>
 
     <header id="accueil">
-        <div><img src="/img/personne.png" alt="Photo de Ludovic Arduino" class="logo"></div>
+        <div><img src="img/personne.png" alt="Photo de Ludovic Arduino" class="logo"></div>
             <div>
-                <h1>Ludovic Arduino <br>
+                <h1 class="moi">Ludovic Arduino <br>
                     Developpeur web & web mobile
                 </h1>
             </div>
@@ -34,22 +32,21 @@
 
           <!-- Menu -->
 
-      <ul id=nav>
-        <li><a href="#accueil">Accueil</a>
-        <li><a href="#propos">A propos</a>
-        <li><a href="#competences">Compétences</a>
-        <li><a href="#experiences">Expérience</a>
-        <li><a href="#formations">Formations</a>
-        <li><a href="#portofolio">Portofolio</a>
-        <li><a href="#contact">Contact</a>
-        <li><a href="https://www.linkedin.com/in/ludovic-arduino-91646b20b/" target="_blank">
-          <img src="/img/logolinkedin.png"  alt="lien vers compte linkedin">
-          <a href="https://github.com/LudovicArduino" target="_blank">
-            <img src="/img/logogithub.png"  alt="lien vers compte github">
-        </a></li>
-        <li><p class="cv"><a href="/LudovicArduinoCV.pdf" target="_blank"><img class="imgcv" src="/img/logocv.png" alt="Mon CV"/></a></li>
+      <div class="navmenu">
+        <a href="#accueil">Accueil</a><br>
+        <a href="#propos">A propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#experiences">Expérience</a>
+        <a href="#formations">Formations</a>
+        <a href="#portofolio">Portofolio</a>
+        <a href="#contact">Contact</a><br>
+        <a href="https://www.linkedin.com/in/ludovic-arduino-91646b20b/" target="_blank">
+          <img src="img/logolinkedin.png"  alt="lien vers compte linkedin"></a>
+        <a href="https://github.com/LudovicArduino" target="_blank">
+            <img src="img/logogithub.png"  alt="lien vers compte github"></a>
+        <a href="LudovicArduinoCV.pdf" target="_blank"><img class="imgcv" src="img/logocv.png" alt="Mon CV"/></a>
           
-        </ul>
+      </div>
   
           <!-- Fin menu -->
 
@@ -65,7 +62,7 @@
       <div class="box3">
         
         <div class="box4">
-          <div class="cPicture"><img src="/img/personne.png" alt="Photo de Ludovic Arduino" class="picture"></div>
+          <div class="cPicture"><img src="img/personne.png" alt="Photo de Ludovic Arduino" class="picture"></div>
         </div>
         
         <div class="box5">
@@ -229,6 +226,7 @@
                     <div class="time">2021</div>
                     <p>La Manu (Amiens)</p>
                     <p>Formation développeur Web et Web mobile.</p>
+                    <p>En cours de formation</p>
                   </li>
                   <li>
                     <div class="time">2005</div>
@@ -322,13 +320,13 @@
         <div class="boxForm">
           <input type="text" id="sujet" name="sujet" size="25" placeholder="L'objet de votre message">
           <input id="email" type="email" name="email" size="25" placeholder="Votre email" required>
-          </div>
+        </div>
           
-          <div class="boxForm">
+        <div class="boxForm">
           <textarea id="message" name="message" placeholder="Votre message" rows="10" cols="50" required></textarea>
-          </div>
+        </div>
   
-          <div class="boxForm">
+        <div class="boxForm">
           <label for="radio">Je ne suis pas un robot</label>
           <input type="radio" name="radio" id="radio" required>
           <label for="radio2">Je suis un robot</label>
@@ -338,7 +336,7 @@
         <div class="boxForm">
           <input type="reset" value="Effacer">
           <input type="submit" value="Envoyer">
-          </div>
+        </div>
           
         </form>
       </div>
