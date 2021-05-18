@@ -1,368 +1,586 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ludovic Arduino</title>
-
-    <link rel="stylesheet" href="/css/styleperso.css">
-    <link rel="stylesheet" type="text/css" href="/css/timeline.css">
-    <link rel="stylesheet" href="/css/formation.css">
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet"> 
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap" rel="stylesheet"> 
-
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Feuilles de styles de base -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/media.css">
+	<!-- Script pour faire fonctionner le style machine a taper -->
+	<script src="assets/js/perso.js"></script>
+	<!-- jquery -->
+	<script src="assets/js/jquery.js"></script>
+	<!-- <link rel="stylesheet" href="xl.css" media="(min-width:1200px)"> -->
+	<title>Ludovic Arduino CV Developpeur web Amiens 80</title>
 </head>
 
-
 <body>
+	<!-- Entete du site avec logo nom et prenom -->
+	<header id="accueil" class="container-fluid mt-5">
+		<div class="row">
+			<div class="text-center col-12 logo">
+				<img src="assets/img/initiales.png" class="img-fluid" alt="logo du cv">
+			</div>
+		</div>
+		<div class="row mt-5">
+			<div class="text-white text-center col-12">
+				<h1 class="mb-0 display-5">Ludovic Arduino</h1>
+			</div>
+			<div class="text-white text-center mt-2 col-12">
+				<h4 class="mb-0">
+					<a href="" class="typewrite" data-period="1000" data-type='[ "&lt Developpeur web junior /&gt;" ]'>
+						<span class="wrap"></span>
+					</a>
+				</h4>
+			</div>
+		</div>
+		<div class="row m-0 mt-5">
+			<div class="text-white col-12 text-center">
+				<a href="https://github.com/LudovicArduino" target=" _blank"><img src="assets/img/github-logo.png"
+						width="30" height="30" alt="logo github liens vers github"></a>
+				<a href="https://www.linkedin.com/in/ludovic-arduino-91646b20b/" target="_blank"><img
+						src="assets/img/linkedin-logo.png" width="30" height="30"
+						alt="logo linkedin liens vers linkedin"></a>
+			</div>
+		</div>
+		<div class="row linkCV">
+			<a class="btn btn-sm btn-outline-light CV" href="assets/CVLudovicArduino.pdf" target="_blank">Télécharger
+				mon
+				CV</a>
+		</div>
+	</header>
+	<!-- Fin entete -->
+	<!-- Balise ouverture pour sticky -->
+	<div>
+		<!-- NavBar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<img src="assets/img/logo.png" width="30" height="30" alt="logo du site">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+					aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#propos">A propos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#competences">Compétences</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#outils">Outils</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#experiences">Expériences</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#formations">Formations</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#portfolio">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="assets/CVLudovicArduino.pdf" target="_blank">Mon CV</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Fin navbar -->
 
-    <header id="accueil">
-        <div><img src="/img/personne.png" alt="Photo de Ludovic Arduino" class="logo"></div>
-            <div>
-                <h1 class="moi">Ludovic Arduino <br>
-                    Developpeur web & web mobile
-                </h1>
-            </div>
-    </header>
+		<!-- contenu CV -->
+		<main>
+			<!-- A propos 
+							<div >
+								<img src="assets/img/Ludo2R.png" class="img-fluid imgProfil" alt="Photo corporate de Ludovic Arduino">
+							</div>-->
 
-          <!-- Menu -->
+				<div class="container-fluid text-white text-center" id="propos">
+					<div class="col-12">
+						<h2 class="mt-4">A propos de moi</h2>
+					</div>
+					<div class="row mt-4 mb-4 align-items-center">
+						<div class="col-12 col-md-4 img-fluid">
+							<img class="img-fluid" src="assets/img/Ludo2R.png" alt="Photo corporate de Ludovic Arduino">
+						</div>
+						<div class="col-12 col-md-4 text-left">
+							<p>Passionné d’informatique depuis mon plus jeune âge, je n’ai cessé de suivre
+								l’évolution de ces technologies.
+								Autodidacte, j’ai appris de nombreux logiciels ainsi que certaine base de code.
+								Pris par la vie, je n'ai pu me consacrer à ma passion tant personnellement que
+								professionnellement.
+								Fin de 2020, je me suis donner les moyens, afin d'intégré le monde du web, par une
+								formation "Développeur Web et Web mobile" en 2021, au sein de La Manu école du numérique
+								à Amiens. Formation certifié RNCP 31114 BAC+2, Niveau 5.
+								<br> <br>
+								Actuellement à la recherche d'un poste en tant que développeur web.
+							</p>
+						</div>
+						<div class="col-12 col-md-4 text-left">
+							<p>Ludovic Arduino <br>
+								Né le : 13 décembre 1977 Amiens (80)<br>
+								<a class="text-decoration-none text-white" href="tel:+65777604"> 06 75 77 76 04</a><br>
+								<a class="text-decoration-none text-white" href="tel:+322757118"> 03 22 75 71 18</a><br>
+								<a class="text-decoration-none text-white"
+									href="mailto:ludovicarduino@gmail.com">ludovicarduino@gmail.com</a>
+							</p>
+						</div>
+					</div>
+				</div>
 
-      <div class="navmenu">
-        <a href="#accueil">Accueil</a><br>
-        <a href="#propos">A propos</a>
-        <a href="#competences">Compétences</a>
-        <a href="#experiences">Expérience</a>
-        <a href="#formations">Formations</a>
-        <a href="#portofolio">Portofolio</a>
-        <a href="#contact">Contact</a><br>
-        <a href="https://www.linkedin.com/in/ludovic-arduino-91646b20b/" target="_blank">
-          <img src="img/logolinkedin.png"  alt="lien vers compte linkedin"></a>
-        <a href="https://github.com/LudovicArduino" target="_blank">
-            <img src="/img/logogithub.png"  alt="lien vers compte github"></a>
-        <a href="LudovicArduinoCV.pdf" target="_blank"><img class="imgcv" src="/img/logocv.png" alt="Mon CV"/></a>
-          
-      </div>
-  
-          <!-- Fin menu -->
+			<!-- Compétences -->
+			<div class="container-fluid text-white text-center">
+				<div class="row">
+					<div class="col-12 col-md-6" id="competences">
+						<h2 class="mt-4 mb-4">Compétences</h2>
+
+						<div class="row mb-3 no-gutters align-items-center">
+							<div class="col-2 text-center cp">HTML</div>
+							<div class="col-10">
+								<div class="progress">
+									<div class="progress-bar progress-bar-striped progress-bar-animated"
+										role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0"
+										aria-valuemax="100">60%</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row mb-3 no-gutters align-items-center">
+							<div class="col-2 text-center cp">CSS3</div>
+							<div class="col-10">
+								<div class="progress">
+									<div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+										role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+										aria-valuemax="100">50%</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row mb-3 no-gutters align-items-center">
+							<div class="col-2 text-center cp">JavaScript</div>
+							<div class="col-10">
+								<div class="progress">
+									<div class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+										role="progressbar" style="width: 30%" aria-valuenow="50" aria-valuemin="0"
+										aria-valuemax="100">30%</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row mb-3 no-gutters align-items-center">
+							<div class="col-2 text-center cp">PHP</div>
+							<div class="col-10">
+								<div class="progress">
+									<div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+										role="progressbar" style="width: 30%" aria-valuenow="50" aria-valuemin="0"
+										aria-valuemax="100">30%</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row mb-3 no-gutters align-items-center">
+							<div class="col-2 text-center cp">MySql</div>
+							<div class="col-10">
+								<div class="progress">
+									<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+										role="progressbar" style="width: 40%" aria-valuenow="50" aria-valuemin="0"
+										aria-valuemax="100">40%</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row mb-3 no-gutters align-items-center">
+							<div class="col-2 text-center cp">SQL</div>
+							<div class="col-10">
+								<div class="progress">
+									<div class="progress-bar progress-bar-striped progress-bar-animated"
+										role="progressbar" style="width: 40%" aria-valuenow="50" aria-valuemin="0"
+										aria-valuemax="100">40%</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row mb-3 no-gutters align-items-center">
+							<div class="col-2 text-center cp">Wordpress</div>
+							<div class="col-10">
+								<div class="progress">
+									<div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+										role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0"
+										aria-valuemax="100">65%</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-6" id="outils">
+						<h2 class="mt-4 mb-4">Outils</h2>
+
+						<p class="mb-0">Visual Studio Code (VS Code)</p>
+						<p class="mb-0">Les méthodes agiles</p>
+						<p class="mb-0">Adobe XD (maquettage)</p>
+						<p class="mb-0">Trello</p>
+						<p class="mb-0">GitHub</p>
+
+					</div>
+				</div>
+			</div>
+
+			<!-- Fin compétences -->
+			<!-- Expériences -->
+			<div class="container-fluid text-white text-center" id="experiences">
+				<div class="col-12">
+					<h2 class="mt-4">Expériences</h2>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="main-timeline4">
+							<div class="timeline">
+								<a href="#" class="timeline-content">
+									<span class="year">2020</span>
+									<div class="inner-content">
+										<h3 class="title">Technicien en matiére plastique</h3>
+										<p class="description">
+											Alpla France Amiens (80)<br>
+											Mars 2006 à Octobre 2020<br>
+											Technicien en extrusion gonflage et PET, optimisation de process, gestion
+											des flux
+											fournisseur /
+											client. Gestion planning, respect des délais et quantités. Suivi qualité et
+											traçabilité.
+										</p>
+									</div>
+								</a>
+							</div>
+							<div class="timeline">
+								<a href="#" class="timeline-content">
+									<span class="year">2006</span>
+									<div class="inner-content">
+										<h3 class="title">Chef équipe</h3>
+										<p class="description">
+											Amiens Injection (PVL) Amiens (80)<br>
+											Dreux Injection (PVL) Dreux (28)
+											Juillet 1999 à Mars 2006<br>
+											Technicien en injection plastiques, gestion de ligne de production,
+											formation du
+											personnel,
+											gestion planning, respect des procédures. Mission comme chef d'équipe
+											week-end sur
+											le site de
+											.Dreux injection fournisseur de Philips.
+										</p>
+									</div>
+								</a>
+							</div>
+							<div class="timeline">
+								<a href="#" class="timeline-content">
+									<span class="year">2005</span>
+									<div class="inner-content">
+										<h3 class="title">Assistant logistique</h3>
+										<p class="description">
+											SFG (Scoiete Francaise de Galvanoplastisque) Bernaville (80)<br>
+											Septembre 2004 à Juillet 2005<br>
+											Assistant responsable logistique dans le cadre de ma formation responsable
+											logistique. J'étais en
+											charge sur le coût du retraitement des déchets plastiques.
+										</p>
+									</div>
+								</a>
+							</div>
+							<div class="timeline">
+								<a href="#" class="timeline-content">
+									<span class="year">1997</span>
+									<div class="inner-content">
+										<h3 class="title">Employé de bureau</h3>
+										<p class="description">
+											Plastic Omnium Amiens (80)<br>
+											Aout 1997 à Septembre 1997<br>
+											Rédaction de la certification ISO 9001.
+										</p>
+									</div>
+								</a>
+							</div>
+							<div class="timeline">
+								<a href="#" class="timeline-content">
+									<span class="year">1997</span>
+									<div class="inner-content">
+										<h3 class="title">Technicien en matiere plastiques</h3>
+										<p class="description">
+											Plastic Omnium Amiens (80)<br>
+											Sept 1995 à Juillet 1997<br>
+											Apprenti dans le cadre de ma formation en BAC pro plasturgie. Régleur,
+											monteur moule
+											et
+											opptimisation process.
+										</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Fin experiences -->
+
+			<!-- formation -->
+			<div class="container-fluid text-white text-center" id="formations">
+				<div class="col-12">
+					<h2 class="mt-4">Formations</h2>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="main-timeline">
+							<div class="timeline">
+								<div class="timeline-icon"><span class="year">2021</span></div>
+								<div class="timeline-content">
+									<h3 class="title">Développer web</h3>
+									<p class="description">
+										Formation à La Manu, école du numerique Amiens (80) <br>
+										BTS (en formation)
+									</p>
+								</div>
+							</div>
+							<div class="timeline">
+								<div class="timeline-icon"><span class="year">2005</span></div>
+								<div class="timeline-content">
+									<h3 class="title">Responsable logistique</h3>
+									<p class="description">
+										Formation responsable logistique Interfor Amiens (80)<br>
+										Titre pro (BTS) diplôme obtenu
+									</p>
+								</div>
+							</div>
+							<div class="timeline">
+								<div class="timeline-icon"><span class="year">1999</span></div>
+								<div class="timeline-content">
+									<h3 class="title">BTS Plastiques et composites</h3>
+									<p class="description">
+										Brevet de technicien supérieur à Chauny (80)<br>
+										diplôme obtenu
+									</p>
+								</div>
+							</div>
+							<div class="timeline">
+								<div class="timeline-icon"><span class="year">1997</span></div>
+								<div class="timeline-content">
+									<h3 class="title">Bac pro Plastiques et composites</h3>
+									<p class="description">
+										Bac pro à AFISOM à Amiens (80)<br>
+										diplôme obtenu
+									</p>
+								</div>
+							</div>
+							<div class="timeline">
+								<div class="timeline-icon"><span class="year">1995</span></div>
+								<div class="timeline-content">
+									<h3 class="title">BEP / CAP MSMA</h3>
+									<p class="description">
+										BEP CAP MSMA La Providence à Amiens (80)<br>
+										diplôme obtenu
+									</p>
+								</div>
+							</div>
+							<div class="timeline">
+								<div class="timeline-icon"><span class="year">1993</span></div>
+								<div class="timeline-content">
+									<h3 class="title">Brevet des colléges</h3>
+									<p class="description">
+										Brevet des colléges La Sainte Famille à Amiens (80)<br>
+										diplôme obtenu
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Fin de formation -->
+
+			<!-- Portfolio -->
+			<div class="container-fluid text-white text-center mb-4" id="portfolio">
+				<div class="col-12">
+					<h2 class="mt-4 mb-4">Portfolio</h2>
+				</div>
+				<div class="container">
+					<div class="row justify-content-center">
+
+						<div class="col-12 col-md-4 mb-4 d-flex justify-content-center">
+							<div class="boxImg">
+								<a href="http://doudouetpinou.fr" target="_blank"><img src="assets/img/logodoudouetpinou.jpg" alt="Image du logo micro creche doudou  et pinou" class="image">
+								<div class="overlay">
+									<div class="text">Wordpress<br>Site Web<br>Porjet Personnel</div></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-4 mb-4 d-flex justify-content-center">
+							<div class="boxImg">
+								<a href="https://ludovicarduino.github.io/littleitaly/" target="_blank"><img src="assets/img/littleitalyweb.png" alt="liens vers little italy" class="image">
+									<div class="overlay">
+										<div class="text">Projet en groupe<br>Non responsive<br>Scrum master</div></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-4 mb-4 d-flex justify-content-center">
+							<div class="boxImg">
+								<a href="https://ludovicarduino.github.io/StreetRailRoad/" target="_blank"><img src="assets/img/streetrailroad.jpg" alt="liens vers Street Rail Road" class="image">
+									<div class="overlay">
+										<div class="text">Projet en groupe<br>Responsive<br>Discographie</div></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-4 mb-4 d-flex justify-content-center">
+							<div class="boxImg">
+								<img src="assets/img/personne.png" alt="Avatar" class="image">
+								<div class="overlay">
+									<div class="text">Hello World</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-4 mb-4 d-flex justify-content-center">
+							<div class="boxImg">
+								<img src="assets/img/personne.png" alt="Avatar" class="image">
+								<div class="overlay">
+									<div class="text">Hello World</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-4 mb-4 d-flex justify-content-center">
+							<div class="boxImg">
+								<img src="assets/img/personne.png" alt="Avatar" class="image">
+								<div class="overlay">
+									<div class="text">Hello World</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!-- Fin du portfolio -->
+
+			<!-- formulaire de contact -->
+			<div class="container-fluid text-white text-center mb-4" id="contact">
+				<div class="col-12">
+					<h2 class="mt-4 mb-4">Contact</h2>
+				</div>
+				<div class="container">
+				
+					<div class="col-12">
+						<div id="formContact">
+						<!--<form action="" method="post">-->
+							<input class="col-12 col-md-4 mb-4 champ" type="text" name="prenom" placeholder="Prénom" required>
+							<input class="col-12 col-md-4 mb-4 champ" type="text" name="nom" placeholder="Nom" required>
+							<input class="col-12 col-md-4 mb-4 champ" type="email" name="mail" placeholder="Votre mail" required>
+							<input class="col-12 col-md-4 mb-4 champ" type="tel" name="tel" placeholder="Votre numéro de contact">
+							<textarea class="col-12 col-md-8" name="msg" cols="30" rows="10" placeholder="Votre message" required></textarea>
+							<div class="loaderFormContact" style="display:none">
+								<div class="spinner-border text-primary" role="status">
+									<span class="sr-only">Loading...</span>
+								</div>
+							</div>
+							<div class="msgFormContact"></div>
+							<div>
+								<button class="btn btn-outline-primary btn-lg m-3 btnEnvoyerContact">Envoyer</button>
+							</div>
+						<!--</form>-->
+						</div>
+						<script>
+						$("button.btnEnvoyerContact").click(function(){
+							//on récupère les infos renseignées
+							let 
+							prenom=$("input[name='prenom']").val(),
+							nom=$("input[name='nom']").val(),
+							mail=$("input[name='mail']").val(),
+							tel=$("input[name='tel']").val(),
+							msg=$("textarea[name='msg']").val();
+							//on affiche le loader...
+							$(".loaderFormContact").show();
+							//on envoi les informations renseignées
+							$.post("assets/php/contact.php",{prenom:prenom,nom:nom,mail:mail,tel:tel,msg:msg},function(data){
+								//on vérifie ce que nous renvoi le fichier contact.php avec les infos renseignées
+								if(data!="ok")
+									$(".msgFormContact").html(data);
+								else{
+									//dans tous l'espace du formulaire (div formContact) on affiche le message suivant
+									$('#formContact').html("<h2>Message envoyé!<br>Votre message vient d'être envoyé avec succès! Une réponse vous sera envoyé dès que possible.</h2>");
+								}
+								//dans tous les cas on cache le loader, après la requête
+								$(".loaderFormContact").hide();
+								
+							}).fail(function(){
+								$(".loaderFormContact").show();
+								//gestion d'erreur, au cas où il y aurait un souci avec le fichier contact.php
+								alert("Une erreur s'est produite, merci de réessayer s'il vous plaît.");
+							});
+						});
+						</script>
+					</div>
+				
 
 
-    <!-- a propos-->
+				</div>
 
-    <div id="propos" class="box1">
 
-      <div class="box2">
-        <h2>A propos de moi :</h2>
-      </div>
+			</div>
+			<!-- formulaire de contact -->
 
-      <div class="box3">
-        
-        <div class="box4">
-          <div class="cPicture"><img src="img/personne.png" alt="Photo de Ludovic Arduino" class="picture"></div>
-        </div>
-        
-        <div class="box5">
-          <p>Passionné d’informatique depuis mon plus jeune age, je n’ai cessé de suivre <br>
-            l’évolution de ces technologies. <br>
-            Autodidacte, j’ai appris de nombreux logiciels ainsi que certaine bases de code. <br>
-            Pris par la vie, je n'ai pu me consacré à ma passion tant personnellement que professionnellement. <br>
-            Fin de 2020, je me suis donner les moyens, afin d'intégré le monde du web, par une formation "Développeur Web et Web mobile" en 2021, au seins de La Manu école du numérique à Amiens. Formation certifié RNCP 31114 BAC+2, Niveau 5. <br> <br>
-            Actuellement à la recherche d'un poste en tant que développeur web.
-            </p> 
-        </div>
-      </div>
+		</main>
 
-    </div>
-  
-      <!-- fin de a propos-->
 
-      <!-- competence-->
+		<!-- Fin contenu CV -->
 
-      <div id="competences" class="box1">
 
-        <div class="box2">
-          <h2>Mes compétences :</h2>
-        </div>
-  
-        <div class="boxCompetences">
-          
-            <div class="SkillBox">                   
-              <div class="Skill-Area ">HTML</div>
-              <div class="SkillBar">
-                <div id="Skill-HTML"> </div>
-              </div>
-              <div class="PercentText ">60%</div>              
-            </div>
+		<!-- Debut footer -->
+		<footer>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 text-white">
+						<p>© 2021 Ludovic Arduino Tous droits résrvés</p>
+						<div class="text-white col-12 text-center mb-2">
+							<a href="https://github.com/LudovicArduino"" target=" _blank"><img
+									src="assets/img/github-logo.png" width="30" height="30"
+									alt="logo github liens vers github"></a>
+							<a href="https://www.linkedin.com/in/ludovic-arduino-91646b20b/" target="_blank"><img
+									src="assets/img/linkedin-logo.png" width="30" height="30"
+									alt="logo linkedin liens vers linkedin"></a>
+						</div>
+					</div>
+				</div>
+			</div>
 
-            <div class="SkillBox">                   
-              <div class="Skill-Area ">CSS3</div>
-              <div class="SkillBar">
-                <div id="Skill-CSS"> </div>
-              </div>
-              <div class="PercentText ">50%</div>              
-            </div>
+		</footer>
+		<!-- Fin footer -->
 
-            <div class="SkillBox">                   
-              <div class="Skill-Area ">Javascript</div>
-              <div class="SkillBar">
-                <div id="Skill-JS"> </div>
-              </div>
-              <div class="PercentText ">30%</div>              
-            </div>
-
-            <div class="SkillBox">                   
-              <div class="Skill-Area ">PHP</div>
-              <div class="SkillBar">
-                <div id="Skill-PHP"> </div>
-              </div>
-              <div class="PercentText ">30%</div>              
-            </div>
-
-            <div class="SkillBox">                   
-              <div class="Skill-Area ">Mysql</div>
-              <div class="SkillBar">
-                <div id="Skill-MYSQL"> </div>
-              </div>
-              <div class="PercentText ">40%</div>              
-            </div>
-
-            <div class="SkillBox">                   
-              <div class="Skill-Area ">Sql</div>
-              <div class="SkillBar">
-                <div id="Skill-SQL"> </div>
-              </div>
-              <div class="PercentText ">40%</div>              
-            </div>
-           
-            <div class="SkillBox">                   
-              <div class="Skill-Area ">Wordpress</div>
-              <div class="SkillBar">
-                <div id="Skill-WORD"> </div>
-              </div>
-              <div class="PercentText ">65%</div>              
-            </div>
-            
-        </div>
-  
-      </div>
-  
-      <!-- fin competence-->
-
-      <!-- Experiences -->
-      <div id="experiences" class="box1">
-
-        
-        <div class="box2">
-          <h2>Mes expériences :</h2>
-        </div>
-        <div class="timeline-container">
-
-          <div class="timeline-block timeline-block-right">
-            <div class="marker"></div>
-            <div class="timeline-content">
-              <h3>Mars 2006 à Octobre 2020</h3>
-              <span>Technicien en matiere plastiques</span><br>
-              <span>Alpla France</span>
-              <p>Technicien en extrusion gonflage et PET, optimisation de process, gestion des flux fournisseur / client. Gestion planning, respect des délais et quantités. Suivi qualité et traçabilité.</p>
-            </div>
-          </div>
-        
-          <div class="timeline-block timeline-block-left">
-            <div class="marker"></div>
-            <div class="timeline-content">
-              <h3>Juillet 1999 à Mars 2006</h3>
-              <span>Chef équipe week-end</span><br>
-              <span>Dreux Injection / Amiens Injection</span>
-              <p>Technicien en injection plastiques, gestion de ligne de production, formation du personnel, gestion planning, respect des procédures. Mission comme chef d'équipe week-end sur le site de <br> .Dreux injection fournisseur de Philips</p>
-            </div>
-          </div>
-
-          <div class="timeline-block timeline-block-right">
-            <div class="marker"></div>
-            <div class="timeline-content">
-              <h3>Sept 2004 à Juillet 2005</h3>
-              <span>Assistant logistique</span><br>
-              <span>SFG (Scoiete Francaise de Galvanoplastisque)</span>
-              <p>Assistant responsable logistique dans le cadre de ma formation responsable logistique. J'étais en charge sur le coût du retraitement des déchets plastiques.</p>
-            </div>
-          </div>
-
-          <div class="timeline-block timeline-block-left">
-            <div class="marker"></div>
-            <div class="timeline-content">
-              <h3>Aout 1997 à Septembre 1997</h3>
-              <span>Employé de bureau</span><br>
-              <span>Plastic Omnium</span>
-              <p>.Rédaction de la certification ISO 9001</p>
-            </div>
-          </div>
-        
-          <div class="timeline-block timeline-block-right">
-            <div class="marker"></div>
-            <div class="timeline-content">
-              <h3>Sept 1995 à Juillet 1997</h3>
-              <span>Technicien en matiere plastiques</span><br>
-              <span>Plastic Omnium</span>
-              <p>Apprenti dans le cadre de ma formation en BAC pro plasturgie. Régleur, monteur moule et opptimisation process.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-            <!-- fin Experiences -->
-
-            <!-- formations -->
-            <div id="formations" class="box1">
-
-              <div class="box2">
-              <h2>Formations :</h2>
-              </div>
-              <div class="wrapper">
-                <ul class="sessions">
-                  <li>
-                    <div class="time">2021</div>
-                    <p>La Manu (Amiens)</p>
-                    <p>Formation développeur Web et Web mobile.</p>
-                    <p>En cours de formation</p>
-                  </li>
-                  <li>
-                    <div class="time">2005</div>
-                    <p>Interfor (Amiens)</p>
-                    <p>Formation responsable logistique BAC+2.</p>
-                    <p>Diplôme obtenu</p>
-                  </li>
-                  <li>
-                    <div class="time">1999</div>
-                    <p>Lycée Jean Macé (Chauny)</p>
-                    <p>BTS plastiques et composites.</p>
-                    <p>Diplôme obtenu</p>
-                  </li>
-                  <li>
-                    <div class="time">1997</div>
-                    <p>AFISOM (Amiens)</p>
-                    <p>BAC pro plastiques et composites.</p>
-                    <p>Diplôme obtenu</p>
-                  </li>
-                  <li>
-                    <div class="time">1995</div>
-                    <p>Lycée La providence (Amiens)</p>
-                    <p>BEP / CAP MSMA (maintenance des sytémes mécaniques automatisés).</p>
-                    <p>Diplôme obtenu</p>
-          
-          
-                  </li>
-                  <li>
-                    <div class="time">1993</div>
-                    <p>Collége la Sainte Famille (Amiens)</p>
-                    <p>Brevet des colléges.</p>
-                    <p>Diplôme obtenu</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- Fin formations -->
+		<!-- Balise pour le sticky -->
+	</div>
+	<!--  -->
 
 
 
-          <!-- portfolio -->
-    <div id="portofolio" class="box1">
+	
+	<!-- Script bootstrap Version 4.6 -->
+	<script src="assets/js/bootstrap.bundle.min.js"
+		integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+	</script>
 
-    <div class="box2">
-    <h2>Portfolio :</h2>
-    </div>
-      <div class="portfolio">
-        <div class="imgPortfolio">
-          <a href="https://wp.synas.ovh/" target="_blank">
-            <img src="/img/logosynas.png" class="imgPortfolio" alt="lien vers le site wp synas . ovh">
-        </a>
-        </div>
-        <div class="imgPortfolio">
-          <a href="https://doudouetpinou.fr" target="_blank">
-            <img src="/img/logodoudou.png" class="imgPortfolio" alt="lien vers le site doudou et pinou . fr">
-        </a>
-        </div>
-      </div>
-    </div>
-<!-- Fin portfolio -->
-
-<!-- Contact -->
-<div id="contact" class="box1">
-
-        
-  <div class="box2">
-    <h2>Contact :</h2>
-  </div>
-
-  <div class="gloform">
-
-    <div class="coordonnee">
-  
-      <div class="boxcoord">Ludovic Arduino</div>
-      <div class="boxcoord">6 bis rue Bonnemain</div>
-      <div class="boxcoord">80300 Authuille</div>
-      <div class="boxcoord">ludovicarduino@gmail.com</div>
-      <div class="boxcoord">06 75 77 76 04</div>
-      <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2368.7333733011064!2d2.6666276155671564!3d50.044418879421364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dd593a03759e85%3A0xbf3d393d6845ef01!2s6B%20Rue%20Bonnemain%2C%2080300%20Authuille!5e1!3m2!1sfr!2sfr!4v1618304685856!5m2!1sfr!2sfr" width="100%" height="200px" style="border:0;"  loading="lazy"></iframe></div>
-  
-    </div>
-  
-  
-    <div class="formulaire">
-        <form method="post" action="actionform.php">
-          <div class="boxForm">
-          <input type="text" id="nom" name="nom" size="25" placeholder="Votre nom" required>
-          <input type="text" id="prenom" name="prenom" size="25" placeholder="Votre prenom" required>
-        </div>
-  
-        <div class="boxForm">
-          <input type="text" id="sujet" name="sujet" size="25" placeholder="L'objet de votre message">
-          <input id="email" type="email" name="email" size="25" placeholder="Votre email" required>
-        </div>
-          
-        <div class="boxForm">
-          <textarea id="message" name="message" placeholder="Votre message" rows="10" cols="50" required></textarea>
-        </div>
-  
-        <div class="boxForm">
-          <label for="radio">Je ne suis pas un robot</label>
-          <input type="radio" name="radio" id="radio" required>
-          <label for="radio2">Je suis un robot</label>
-          <input type="radio" name="radio" id="radio2">
-        </div>
-  
-        <div class="boxForm">
-          <input type="reset" value="Effacer">
-          <input type="submit" value="Envoyer">
-        </div>
-          
-        </form>
-      </div>
-  </div>
-  
-</div>
-      <!-- fin contact -->
-
-  <footer>
-      <div class="classfooter">
-        <div class="txtfooter">
-          <div>© Ludovic Arduino - 2021 -</div> 
-          <div><a href="https://www.linkedin.com/in/ludovic-arduino-91646b20b/" target="_blank">
-          <img src="/img/logolinkedin.png"  alt="lien vers compte linkedin">
-          <a href="https://github.com/LudovicArduino" target="_blank">
-            <img src="/img/logogithub.png"  alt="lien vers compte github">
-            <a href="/LudovicArduinoCV.pdf" target="_blank"><img class="imgcv" src="/img/logocv.png" alt="Mon CV"/></a>
-          </div> 
-        </div>
-      </div>
-
-  </footer>
-    
 </body>
-
-
-
 
 </html>
