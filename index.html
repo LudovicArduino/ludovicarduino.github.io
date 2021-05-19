@@ -21,7 +21,7 @@
 	<!-- Entete du site avec logo nom et prenom -->
 	<header id="accueil" class="container-fluid mt-5">
 		<div class="row">
-			<div class="text-center col-12 logo">
+			<div class="text-center col-12 col-sm-2 offset-sm-5 logo">
 				<img src="assets/img/initiales.png" class="img-fluid" alt="logo du cv">
 			</div>
 		</div>
@@ -538,7 +538,7 @@
 								//dans tous l'espace du formulaire (div formContact) on affiche le message suivant
 								$('#formContact').html(
 									"<h2>Message envoyé!<br>Votre message vient d'être envoyé avec succès! Une réponse vous sera envoyé dès que possible.</h2>"
-									);
+								);
 							}
 							//dans tous les cas on cache le loader, après la requête
 							$(".loaderFormContact").hide();
